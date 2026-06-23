@@ -2,6 +2,6 @@
 title: Dinis's Blog
 ---
 
-## Blog
+# Blog
 
-# Things
+## Things
