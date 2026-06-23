@@ -1,3 +1,7 @@
 ---
-title: Welcome to my blog!
+title: Dinis's Blog
 ---
+
+## Blog
+
+# Things
