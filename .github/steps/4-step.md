@@ -5,7 +5,6 @@ Your home page is looking great! :cowboy_hat_face:
 ### 📖 Theory: Jekyll blog posts and frontmatter
 
 
-
 Jekyll uses specially named files and frontmatter to create blog posts. The files must be named `_posts/YYYY-MM-DD-title.md` and must include `title` and `date` in the **front matter**.
 
 **Front matter** is a yaml section at the **top** of your file that looks like this:

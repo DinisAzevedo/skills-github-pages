@@ -1,4 +1,4 @@
 ---
 title: "FirstPost"
-date: YYYY-MM-DD
+date: 2026-06-23
 ---
