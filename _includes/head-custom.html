@@ -1,0 +1,141 @@
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f4efe6;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: #ffffff;
+  --text: #1f2328;
+  --muted: #5b6470;
+  --accent: #8a4f2a;
+  --accent-strong: #5f3418;
+  --border: rgba(31, 35, 40, 0.12);
+  --shadow: 0 18px 48px rgba(47, 31, 19, 0.12);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(138, 79, 42, 0.14), transparent 32%),
+    radial-gradient(circle at top right, rgba(95, 52, 24, 0.12), transparent 28%),
+    linear-gradient(180deg, #fbf8f2 0%, var(--bg) 100%);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.site-header {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-top: 5px solid var(--accent);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: var(--text);
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.page-content {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+.home,
+.post {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 22px;
+  padding: 2rem;
+}
+
+.home h1,
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.home h1,
+.post-title {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.05;
+}
+
+.home h2,
+.post-content h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.home p,
+.post-content p,
+.post-content li,
+.site-footer,
+.post-meta {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.home ul,
+.post-content ul {
+  padding-left: 1.25rem;
+}
+
+.home li + li,
+.post-content li + li {
+  margin-top: 0.35rem;
+}
+
+.home a,
+.post-content a,
+.site-footer a {
+  color: var(--accent-strong);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.18em;
+}
+
+.home a:hover,
+.post-content a:hover,
+.site-footer a:hover {
+  color: var(--accent);
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--accent);
+  background: rgba(138, 79, 42, 0.08);
+  border-radius: 0 14px 14px 0;
+  padding: 1rem 1.25rem;
+  color: var(--text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+@media screen and (max-width: 800px) {
+  .home,
+  .post {
+    padding: 1.5rem;
+    border-radius: 18px;
+  }
+
+  .site-header {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+</style>
